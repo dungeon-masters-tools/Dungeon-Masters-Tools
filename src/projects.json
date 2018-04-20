@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "title": "Heroes 2.0",
+            "subtitle": "Blizzard Entertainnment",
+            "cardImg": "https://github.com/swlockhorst/portfolio/blob/master/dist/img/content/screenshots-hots.jpg",
+            "detailImg": "https://github.com/swlockhorst/portfolio/blob/master/dist/img/content/screenshots-hots.jpg",
+            "description": "Modern redesign and relaunch of the Heroes of the Storm Game Site coinciding with a big in game update.",
+            "info": "",
+            "url": "www.google.com"
+        },
+        {
+            "title": "TESPA Signup",
+            "subtitle": "Blizzard Entertainnment / TESPA",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "Mobile app for TESPA recruiters to signup new chapter members while at events.",
+            "info": "",
+            "url": ""
+        },
+        {
+            "title": "Go Noobs!",
+            "subtitle": "Riot Games",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "Custom landing page in the League of Legends Client for new players with a fully animated menu system.",
+            "info": "",
+            "url": ""
+        },
+        {
+            "title": "Champion Reveals",
+            "subtitle": "Riot Games",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "Landing pagess for new and reworked League of Legends champions.",
+            "info": "",
+            "url": ""
+        },
+        {
+            "title": "Overwatch World Cup",
+            "subtitle": "Blizzard Entertainment",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "Overwatch World Cup esports event hub.",
+            "info": "blah blah blah blah",
+            "url": ""
+        },
+        {
+            "title": "LiveNation Sweeps",
+            "subtitle": "LiveNation",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "LiveNation sweepstakes pages for giveaways and various prizes.",
+            "info": "",
+            "url": ""
+        },
+        {
+            "title": "Hand in Hand: Hurricane Relief",
+            "subtitle": "Scooter Braun",
+            "cardImg": "../../../dist/img/content/",
+            "detailImg": "http://satyr.io/800x600/212121",
+            "description": "Official benefit site for accepting hurrican relief donations.",
+            "info": "",
+            "url": "https://handinhand2017.com/"
+        }
+    ]
+}
