@@ -13,7 +13,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-    devtool: 'inline-source-map',
+  devtool: 'inline-source-map',
    module: {
      rules: [
       {
@@ -51,4 +51,9 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     extractSass,
   ],
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    // compress: true,
+    // port: 9000
+  }
 };

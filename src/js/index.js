@@ -17,7 +17,7 @@ function component() {
 document.body.appendChild(component());
 
 const Index = () => {
-  return (<div>Hello you fuck!</div>);
+  return (<div>Hello you!</div>);
 };
 
 ReactDOM.render(<Index />, document.getElementById("app"));
