@@ -1,3 +1,8 @@
+/* Settings */
+
+@import '~normalize.css';
+@import 'global/00-s-variables';
+
 html {
-  background: lightblue;
+    background: $base-background;
 }
