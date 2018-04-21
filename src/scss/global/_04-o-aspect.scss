@@ -1,0 +1,45 @@
+/* ------------------------------------ *\
+    #ASPECT RATIO OBJECT
+\* ------------------------------------ */
+
+$aspect-config: (
+    '4x3': percentage(3 / 4),
+);
+
+.o-aspect {
+    overflow: hidden;
+    margin-bottom: spacer(1);
+    width: 100%;
+    position: relative;
+    background: #161616;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    & > * {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    & > iframe,
+    & > embed,
+    & > video {
+        height: 100%;
+    }
+}
+
+@each $prop, $value in $aspect-config {
+    .o-aspect--#{$prop} {
+        &::before {
+            padding-top: $value;
+        }
+    }
+}

@@ -2,7 +2,10 @@
 
 @import '~normalize.css';
 @import 'global/00-s-variables';
-
-html {
-    background: $base-background;
-}
+@import 'global/03-e-page';
+@import 'global/04-o-container';
+@import 'global/04-o-aspect';
+@import 'global/04-o-layout';
+@import 'global/05-c-menu';
+@import 'global/05-c-card';
+@import 'global/06-u-img';
