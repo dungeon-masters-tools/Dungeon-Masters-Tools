@@ -3,15 +3,25 @@
 \* ------------------------------------ */
 
 .c-modal {
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    top: 50%;
+    top: 50px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
+    transform: translateX(-50%);
+    width: 95vw;
     max-width: 800px;
-    min-height: 800px;
     display: flex;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
-    color: #fff;
+    background: #fff;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+}
+
+.c-modal__inner {
+    width: 100%;
+    padding: 50px;
+}
+
+.c-modal__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }

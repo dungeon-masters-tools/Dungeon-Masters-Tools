@@ -15,13 +15,26 @@ export default class App extends React.Component {
             <div className="o-layout">
                 <div className="o-laybout__main">
                     <img src="" alt=""/>
-                    <h1>Main Content</h1>
-                    <p>Small paragraph about me that explains who i am, what i do and maybe a side hobby or some fun fact about me.</p>
+                    <h1>Steven Lockhorst</h1>
+                    <p>Front End Developer with a focus on  high performance using HTML5, CSS and Javascript.</p>
                     <ul>
-                        <li><a href="#">social link</a></li>
-                        <li><a href="#">social link</a></li>
-                        <li><a href="#">social link</a></li>
-                        <li><a href="#">social link</a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/steven-lockhorst-6b740a94/">
+                                LinkedIn
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/swlockhorst">
+                                GitHub
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://twitter.com/Swlockhorst">
+                                Twitter
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="o-laybout__side">
