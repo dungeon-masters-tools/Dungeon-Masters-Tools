@@ -1,0 +1,61 @@
+<svg className="c-intro__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.5 169.3">
+    <linearGradient
+        id="a"
+        gradientUnits="userSpaceOnUse"
+        x1="-28"
+        y1="84.628"
+        x2="78.25"
+        y2="84.628"
+    >
+        <stop offset="0" stopColor="#73e8ff" />
+        <stop offset="1" stopColor="#0086c3" />
+    </linearGradient>
+    <path fill="url(#a)" d="M0 32.9l106.2 64.9v38.6L.1 71.6z" />
+    <linearGradient
+        id="b"
+        gradientUnits="userSpaceOnUse"
+        y1="26.053"
+        x2="53.379"
+        y2="26.053"
+    >
+        <stop offset="0" stopColor="#73e8ff" />
+        <stop offset="1" stopColor="#0086c3" />
+    </linearGradient>
+    <path fill="url(#b)" d="M53.4 0v38.9L31.5 52.1 0 32.9z" />
+    <linearGradient
+        id="c"
+        gradientUnits="userSpaceOnUse"
+        x1="53.375"
+        y1="29.649"
+        x2="106.542"
+        y2="29.649"
+    >
+        <stop offset="0" stopColor="#73e8ff" />
+        <stop offset="1" stopColor="#0086c3" />
+    </linearGradient>
+    <path fill="url(#c)" d="M106.5 32.6L87.7 59.3 53.4 38.9V0z" />
+    <linearGradient
+        id="d"
+        gradientUnits="userSpaceOnUse"
+        x1="53.375"
+        y1="143.276"
+        x2="106.25"
+        y2="143.276"
+    >
+        <stop offset="0" stopColor="#73e8ff" />
+        <stop offset="1" stopColor="#0086c3" />
+    </linearGradient>
+    <path fill="url(#d)" d="M53.4 130.6v38.7l52.8-32.9L75 117.3z" />
+    <linearGradient
+        id="e"
+        gradientUnits="userSpaceOnUse"
+        x1="0.25"
+        y1="139.524"
+        x2="53.375"
+        y2="139.524"
+    >
+        <stop offset="0" stopColor="#73e8ff" />
+        <stop offset="1" stopColor="#0086c3" />
+    </linearGradient>
+    <path fill="url(#e)" d="M53.4 130.6l-34.1-20.8L.2 136.6l53.2 32.7z" />
+</svg>

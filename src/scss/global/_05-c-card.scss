@@ -2,6 +2,34 @@
     #CARD
 \* ------------------------------------ */
 
-.c-card__anchor {
-    display: block;
+.c-card {
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.c-card__heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background: red;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    transform: translateY(72px) rotate(-20deg);
+    transform-origin: right;
+    transition: transform 200ms ease;
+
+    .c-card:hover & {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+.c-card__title {
+    font-weight: 400;
+    color: #fff;
 }

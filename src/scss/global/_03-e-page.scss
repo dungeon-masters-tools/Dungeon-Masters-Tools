@@ -1,11 +1,24 @@
 /* ------------------------------------ *\
     #PAGE
 \* ------------------------------------ */
+html {
+    background: $base-background;
+    color: $base-color;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 body {
     height: 100vh;
 }
 
+#modal-root {
+    position: relative;
+    z-index: 1;
+}
+
 #app {
-    height: 100%;
+    // height: 100%;
 }

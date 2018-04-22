@@ -1,0 +1,44 @@
+/* ------------------------------------ *\
+    #TYPOGRAPY
+\* ------------------------------------ */
+
+//
+// Headings
+//
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: $base-line-height;
+}
+
+//
+// Paragraphs
+//
+p {
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+//
+// Lists
+//
+// ul,
+// ol,
+// dl {
+//     margin: 0 0 20px;
+// }
+
+
+//
+// Link Styles
+//
+// a {
+//     text-decoration: none;
+// }

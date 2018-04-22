@@ -1,0 +1,17 @@
+/* ------------------------------------ *\
+    #MODAL
+\* ------------------------------------ */
+
+.c-modal {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    max-width: 800px;
+    min-height: 800px;
+    display: flex;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    color: #fff;
+}
