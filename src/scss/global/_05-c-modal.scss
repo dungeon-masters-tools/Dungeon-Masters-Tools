@@ -17,7 +17,11 @@
 
 .c-modal__inner {
     width: 100%;
-    padding: 50px;
+    padding: 20px;
+
+    @include media('sm') {
+        padding: 50px;
+    }
 }
 
 .c-modal__img {

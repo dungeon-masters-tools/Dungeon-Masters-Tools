@@ -1,0 +1,88 @@
+///
+// Breakpoints
+//
+
+$breakpoints-config: (
+    'xs':      480px,
+    'sm':      768px,
+    'md':     1024px,
+    'lg':     1200px,
+    'xl':     1500px,
+);
+
+
+// Container for generated media queries based of those listed in $breakpoints
+$breakpoints-layout-config: ();
+
+// Extended breakpoints for generating utility classes. Includes some defaults.
+$breakpoints-extended-config: ();
+
+$breakpoints-master-config: (
+    'screen':   'screen',
+    'print':    'print',
+    'high-res': '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)',
+);
+
+
+// Get the keys for the breakpoints.
+$breakpoint-keys: map-keys($breakpoints-config);
+
+// Get a list of the breakpoints properties.
+$breakpoint-props: map-values($breakpoints-config);
+
+@each $breakpoint in $breakpoint-keys {
+
+    // Index of position in list
+    $index: index($breakpoint-keys, $breakpoint);
+
+    // Properties of the current breakpoint
+    $props: nth($breakpoint-props, $index);
+
+    // The size should be the first one.
+    $size: nth($props, 1);
+
+    // Assume a width
+    $direction: 'width';
+
+    // Add this breakpoint to the layout breakpoints
+    @if $direction == 'width' {
+        $breakpoints-layout-config: map-merge($breakpoints-layout-config, ('#{$breakpoint}': '(min-#{$direction}: #{$size})'));
+    }
+
+    // Generate Extended sizes
+    $breakpoint-min: ('#{$breakpoint}': '(min-#{$direction}: #{$size})');
+    $breakpoint-less-than: ('less-than-#{$breakpoint}': '(max-#{$direction}: #{$size - 1})');
+
+    // Add the generated sizes to the extended config map.
+    $breakpoints-extended-config: map-merge($breakpoints-extended-config, $breakpoint-min);
+    $breakpoints-extended-config: map-merge($breakpoints-extended-config, $breakpoint-less-than);
+
+    @if $index < length($breakpoint-keys) {
+
+        $next-props: nth($breakpoint-props, $index + 1);
+        $next-size: nth($next-props, 1);
+
+        $next-direction: 'width';
+
+        @each $item in $next-props {
+            @if ($item == vertical) {
+                $next-direction: 'height';
+            }
+        }
+
+        // Check to make sure this direction matches the next item's direction.
+        // We don't want to mix vertical and horizontal
+        @if $direction == $next-direction {
+
+            $breakpoint-only: (
+                '#{$breakpoint}-only': 'screen and (min-#{$direction}: #{$size}) and (max-#{$direction}: #{$next-size - 1})'
+            );
+
+            $breakpoints-extended-config: map-merge($breakpoints-extended-config, $breakpoint-only);
+        }
+    }
+}
+
+
+$breakpoints-master-config: map-merge($breakpoints-master-config, $breakpoints-extended-config);
+

@@ -17,7 +17,7 @@
     bottom: 0;
     left: 0;
     padding: 20px;
-    background: red;
+    background: linear-gradient(to right, $branded-color-1, $branded-color-2);
     border-top: 1px solid white;
     border-right: 1px solid white;
     transform: translateY(72px) rotate(-20deg);
@@ -30,6 +30,7 @@
 }
 
 .c-card__title {
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
 }

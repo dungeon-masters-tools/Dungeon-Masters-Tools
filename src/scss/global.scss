@@ -2,11 +2,15 @@
 
 @import '~normalize.css';
 @import 'global/00-s-variables';
+@import 'global/00-s-breakpoints';
+@import 'global/01-t-mx-media-queries';
 @import 'global/03-e-page';
 @import 'global/03-e-type';
 @import 'global/04-o-container';
 @import 'global/04-o-aspect';
 @import 'global/04-o-layout';
+@import 'global/05-c-logo';
+@import 'global/05-c-intro';
 @import 'global/05-c-menu';
 @import 'global/05-c-card';
 @import 'global/05-c-overlay';

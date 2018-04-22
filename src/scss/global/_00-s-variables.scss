@@ -1,9 +1,16 @@
 ///
 // Base global defaults
 ///
-// $base-background:   linear-gradient(to right, red, orange, yellow, green, blue, purple);
 $base-background:   #fff;
 $base-color:        #000;
-$base-font-family:  'Roboto', sans-serif;
+$base-font-family:  'Open Sans', sans-serif;
 $base-font-size:    14px;
 $base-line-height:  1.5;
+
+$branded-font-family: 'Lobster', cursive;
+$branded-color-1: #dc2424;
+$branded-color-2: #4a569d;
+$global-border-width: 2px;
+$global-border-color: #fff;
+
+$branding-gradient: linear-gradient(to right, $branded-color-1, $branded-color-2);

@@ -1,0 +1,45 @@
+/* ------------------------------------ *\
+    #INTRO
+\* ------------------------------------ */
+
+$headline-font-size: 60px;
+
+.c-intro {
+    font-family: $base-font-family;
+    text-align: center;
+}
+
+.c-intro__headline {
+    font-family: $branded-font-family;
+    font-size: $headline-font-size;
+    display: block;
+    color: $branded-color-1;
+    position: relative;
+
+    &::before {
+        content: 'Steve Lockhorst';
+        font-family: $branded-font-family;
+        font-size: $headline-font-size;
+        display: block;
+        background: $branding-gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+.c-intro__body {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.c-intro__social {
+    display: flex;
+    justify-content: space-around;
+}

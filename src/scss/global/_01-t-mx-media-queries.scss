@@ -1,0 +1,15 @@
+///
+/// Media Queries
+///
+
+@mixin media($name) {
+    @if map-has-key($breakpoints-master-config, $name) {
+        @media #{map-get($breakpoints-master-config, $name)} {
+            @content;
+        }
+    }
+
+    @else {
+        @warn 'Couldn\'t find a breakpoint named `#{$name}`.';
+    }
+}

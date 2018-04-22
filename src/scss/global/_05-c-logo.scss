@@ -1,0 +1,40 @@
+/* ------------------------------------ *\
+    #LOGO
+\* ------------------------------------ */
+
+$logo-dimension: 100px;
+
+.c-logo {
+    position: relative;
+    margin: 0 auto;
+    width: $logo-dimension;
+    height: $logo-dimension;
+    border-radius: 50%;
+    background: $branding-gradient;
+    border: $global-border-width solid $global-border-color;
+    margin-bottom: 40px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        width: $logo-dimension + 10;
+        height: $logo-dimension + 10;
+        border-radius: 50%;
+        background: $branding-gradient;
+    }
+}
+
+.c-logo__inner {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: $logo-dimension / 1.1;
+    font-family: $branded-font-family;
+    // font-family: $base-font-family;
+}

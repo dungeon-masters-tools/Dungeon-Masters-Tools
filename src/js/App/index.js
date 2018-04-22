@@ -14,28 +14,26 @@ export default class App extends React.Component {
         return (
             <div className="o-layout">
                 <div className="o-laybout__main">
-                    <img src="" alt=""/>
-                    <h1>Steven Lockhorst</h1>
-                    <p>Front End Developer with a focus on  high performance using HTML5, CSS and Javascript.</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/steven-lockhorst-6b740a94/">
-                                LinkedIn
-                            </a>
-                        </li>
+                    <div className="c-intro">
+                        <div className="c-logo">
+                            <div className="c-logo__inner">S</div>
+                        </div>
+                        <h1 className="c-intro__headline">Steve Lockhorst</h1>
+                        <p className="c-intro__body">Front End Developer with a focus on  high performance using HTML5, CSS and Javascript.</p>
+                        <div className="c-intro__social">
+                                <a href="https://www.linkedin.com/in/steven-lockhorst-6b740a94/">
+                                    LinkedIn
+                                </a>
 
-                        <li>
-                            <a href="https://github.com/swlockhorst">
-                                GitHub
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://twitter.com/Swlockhorst">
-                                Twitter
-                            </a>
-                        </li>
-                    </ul>
+                                <a href="https://github.com/swlockhorst">
+                                    GitHub
+                                </a>
+                            
+                                <a href="https://twitter.com/Swlockhorst">
+                                    Twitter
+                                </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="o-laybout__side">
                     <div className="c-menu">
