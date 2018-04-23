@@ -19,7 +19,7 @@ export default class App extends React.Component {
                             <div className="c-logo__inner">S</div>
                         </div>
                         <h1 className="c-intro__headline">Steve Lockhorst</h1>
-                        <p className="c-intro__body">Front End Developer with a focus on  high performance using HTML5, CSS and Javascript.</p>
+                        <p className="c-intro__body">Front End Developer with a focus on  high quality using HTML5, CSS and Javascript.</p>
                         <div className="c-intro__social">
                                 <a href="https://www.linkedin.com/in/steven-lockhorst-6b740a94/">
                                     LinkedIn
