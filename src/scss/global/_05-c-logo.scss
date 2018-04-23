@@ -12,7 +12,11 @@ $logo-dimension: 100px;
     border-radius: 50%;
     background: $branding-gradient;
     border: $global-border-width solid $global-border-color;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
+    @include media('sm') {
+        margin-bottom: 40px;
+    }
 
     &::before {
         content: '';

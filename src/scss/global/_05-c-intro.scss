@@ -12,9 +12,15 @@ $headline-font-size: 60px;
 .c-intro__headline {
     font-family: $branded-font-family;
     font-size: $headline-font-size;
+    line-height: 1.2;
     display: block;
     color: $branded-color-1;
     position: relative;
+    margin-bottom: 20px;
+
+    @include media('sm') {
+        margin-bottom: 40px;
+    }
 
     &::before {
         content: 'Steve Lockhorst';
@@ -36,7 +42,11 @@ $headline-font-size: 60px;
 
 .c-intro__body {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
+    @include media('sm') {
+        margin-bottom: 40px;
+    }
 }
 
 .c-intro__social {
