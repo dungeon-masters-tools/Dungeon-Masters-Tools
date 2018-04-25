@@ -18,7 +18,7 @@ export default class Modal extends React.Component {
                 <div className="c-modal__inner">
                     <h1>{title}</h1>
                     <div className="o-aspect o-aspect--4x3 u-spacing-20">
-                        <img src="http://satyr.io/800x600/242424" className="c-modal__img" alt=""/>
+                        <img src={detailImg} className="c-modal__img" alt=""/>
                     </div>
                     
                     <p>{description}</p>

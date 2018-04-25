@@ -20,12 +20,16 @@
   },
   "homepage": "https://github.com/swlockhorst/portfolio-v2#readme",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/react-fontawesome": "^0.0.18",
     "lodash": "^4.17.5",
     "npm": "^5.8.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "autoprefixer": "^8.3.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",

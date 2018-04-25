@@ -1,0 +1,14 @@
+/* ------------------------------------ *\
+    #ICON
+\* ------------------------------------ */
+
+.c-icon {
+    width: 50px;
+    fill: $branded-color-2;
+    transition: fill 200ms ease;
+
+    &:hover {
+        fill: $branded-color-3;
+    }
+}
+

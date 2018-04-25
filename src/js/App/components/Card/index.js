@@ -34,7 +34,7 @@ export default class Card extends React.Component {
             <div>
                 <div className="c-card" onClick={this.toggleModal}>
                     <div className="o-aspect o-aspect--4x3">
-                        <img src="http://satyr.io/400x300/242424" alt=""/>
+                        <img src={detailImg} alt=""/>
                     </div>
                     <div className="c-card__heading">
                         <span className="c-card__title">{title}</span>

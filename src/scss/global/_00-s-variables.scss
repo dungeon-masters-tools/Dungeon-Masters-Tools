@@ -2,15 +2,16 @@
 // Base global defaults
 ///
 $base-background:   #fff;
-$base-color:        #000;
-$base-font-family:  'Open Sans', sans-serif;
+$base-color:        #212121;
+$base-font-family:  'Rubik', sans-serif;
 $base-font-size:    14px;
 $base-line-height:  1.5;
 
-$branded-font-family: 'Lobster', cursive;
-$branded-color-1: #dc2424;
-$branded-color-2: #4a569d;
+$branded-font-family: 'Roboto Condensed', sans-serif;
+$branded-color-1: #73e8ff;
+$branded-color-2: #4bc6ea;
+$branded-color-3: #0086c3;
 $global-border-width: 2px;
 $global-border-color: #fff;
 
-$branding-gradient: linear-gradient(to right, $branded-color-1, $branded-color-2);
+$branding-gradient: linear-gradient(15deg, $branded-color-1, $branded-color-2, $branded-color-3);

@@ -17,10 +17,9 @@
     z-index: 0;
     bottom: 0;
     left: 0;
+    width: 100%;
     padding: 20px;
-    background: linear-gradient(to right, $branded-color-1, $branded-color-2);
-    border-top: $global-border-width solid #fff;
-    border-right: $global-border-width solid #fff;
+    background: $branding-gradient;
     transform: translateY(72px) rotate(-20deg);
     transform-origin: right;
     opacity: 0;
@@ -44,7 +43,7 @@
 }
 
 .c-card__title {
-    font-size: 20px;
-    font-weight: 400;
+    font-family: $branded-font-family;
+    font-size: 26px;
     color: #fff;
 }
