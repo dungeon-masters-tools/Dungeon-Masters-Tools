@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// TODO: Setup transitions
+// import { CSSTransitionGroup } from 'react-transition-group';
+
 const modalRoot = document.body;
 export default class Modal extends React.Component {
     render() {
