@@ -80,6 +80,7 @@ export default class App extends React.Component {
                                     <Card
                                         key={index}
                                         title={project.title}
+                                        subtitle={project.subtitle}
                                         cardImg={project.cardImg}
                                         detailImg={project.detailImg}
                                         description={project.description}

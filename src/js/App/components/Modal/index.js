@@ -9,6 +9,7 @@ export default class Modal extends React.Component {
     render() {
         const {    
             title,
+            subtitle,
             detailImg,
             description,
             info,
@@ -19,11 +20,11 @@ export default class Modal extends React.Component {
            <div>
             <div className="c-modal">
                 <div className="c-modal__inner">
-                    <h1>{title}</h1>
+                    <h1 className="c-modal__title">{title}</h1>
                     <div className="o-aspect o-aspect--4x3 u-spacing-20">
                         <img src={detailImg} className="c-modal__img" alt=""/>
                     </div>
-                    
+                    <p>{subtitle}</p>
                     <p>{description}</p>
                     <p>{info}</p>
                 </div>

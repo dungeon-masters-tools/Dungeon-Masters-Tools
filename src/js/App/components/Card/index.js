@@ -25,6 +25,7 @@ export default class Card extends React.Component {
     render() {
         const {    
             title,
+            subtitle,
             detailImg,
             description,
             info,
@@ -43,6 +44,7 @@ export default class Card extends React.Component {
                 {this.state.showModal &&
                     <Modal
                         title={title}
+                        subtitle={subtitle}
                         detailImg={detailImg}
                         description={description}
                         info={info}

@@ -14,7 +14,7 @@
             "subtitle": "Riot Games",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/lol-champ.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/lol-champ.jpg",
-            "description": "Landing pagess for new and reworked League of Legends Champions.",
+            "description": "Landing pages for new and reworked League of Legends Champions.",
             "info": "",
             "url": "https://na.leagueoflegends.com/en/featured/champion-reveal-kaisa"
         },
@@ -23,7 +23,7 @@
             "subtitle": "Riot Games",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-worlds.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-worlds.jpg",
-            "description": "World Championsip event in the League of Legends game client.",
+            "description": "World Championship event in the League of Legends game client.",
             "info": "",
             "url": ""
         },
@@ -68,7 +68,7 @@
             "subtitle": "LiveNation",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-ncw.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-ncw.jpg",
-            "description": "LiveNation's largest promotional event of the year offering for $20 concert tickets.",
+            "description": "LiveNation's largest promotional event of the year offering $20 concert tickets.",
             "info": "",
             "url": ""
         },
@@ -95,7 +95,7 @@
             "subtitle": "Scooter Braun",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/hand.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/hand.jpg",
-            "description": "Official benefit site for accepting hurrican relief donations.",
+            "description": "Official benefit site for accepting hurricane relief donations.",
             "info": "",
             "url": "https://handinhand2017.com/"
         }
