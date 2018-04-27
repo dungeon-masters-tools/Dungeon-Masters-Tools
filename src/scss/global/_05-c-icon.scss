@@ -7,7 +7,7 @@
     fill: $branded-color-2;
     transition: fill 200ms ease;
 
-    &:hover {
+    a:hover & {
         fill: $branded-color-3;
     }
 }
