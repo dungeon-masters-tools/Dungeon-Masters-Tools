@@ -7,6 +7,15 @@ import ReactDOM from 'react-dom';
 
 const modalRoot = document.body;
 export default class Modal extends React.Component {
+
+    componentDidMount() {
+        document.getElementById("body").style.overflow = "hidden";
+    }
+
+    componentWillUnmount() {
+        document.getElementById("body").style.overflow = "auto";
+    }
+
     render() {
         const {    
             title,
