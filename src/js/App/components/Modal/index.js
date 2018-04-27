@@ -29,6 +29,7 @@ export default class Modal extends React.Component {
                     <p>{subtitle}</p>
                     <p>{description}</p>
                     <p>{info}</p>
+                    <div className="c-tag__container">
                     {
                         tags.map((tag, index) => {
                             return (
@@ -36,6 +37,8 @@ export default class Modal extends React.Component {
                             )
                         })
                     }
+                    </div>
+                   
                 </div>
                 <button className="c-close-button" onClick={close}>
                     <svg className="c-close-button__icon" viewBox="0 0 1000 1000">

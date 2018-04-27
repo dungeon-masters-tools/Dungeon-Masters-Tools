@@ -5,14 +5,17 @@
 .c-modal {
     position: fixed;
     z-index: 1;
-    top: 50px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     width: 95vw;
-    max-width: 800px;
+    max-width: 600px;
+    max-height: 95vh;
     display: flex;
     background: #fff;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    overflow-y: auto;
 }
 
 .c-modal__inner {
