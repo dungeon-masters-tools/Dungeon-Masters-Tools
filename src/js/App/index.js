@@ -85,6 +85,7 @@ export default class App extends React.Component {
                                         detailImg={project.detailImg}
                                         description={project.description}
                                         info={project.info}
+                                        tags={project.tags}
                                     />
                                 )
                             })

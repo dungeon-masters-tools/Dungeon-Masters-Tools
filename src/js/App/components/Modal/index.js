@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 // TODO: Setup transitions
 // import { CSSTransitionGroup } from 'react-transition-group';
 
@@ -13,6 +14,7 @@ export default class Modal extends React.Component {
             detailImg,
             description,
             info,
+            tags,
             close,
         } = this.props;
 
@@ -27,6 +29,13 @@ export default class Modal extends React.Component {
                     <p>{subtitle}</p>
                     <p>{description}</p>
                     <p>{info}</p>
+                    {
+                        tags.map((tag, index) => {
+                            return (
+                                <span key={index} className="c-tag">{tag}</span>
+                            )
+                        })
+                    }
                 </div>
                 <button className="c-close-button" onClick={close}>
                     <svg className="c-close-button__icon" viewBox="0 0 1000 1000">

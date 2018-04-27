@@ -10,12 +10,7 @@ export default class Card extends React.Component {
             showModal: false,
         };
 
-        this.handleClose = (event) => {
-            console.log(event);
-        }
-
         this.toggleModal = (event) => {
-            console.log(event);
             this.setState({
                 showModal: !this.state.showModal,
             });
@@ -29,6 +24,7 @@ export default class Card extends React.Component {
             detailImg,
             description,
             info,
+            tags,
         } = this.props;
 
         return (
@@ -48,6 +44,7 @@ export default class Card extends React.Component {
                         detailImg={detailImg}
                         description={description}
                         info={info}
+                        tags={tags}
                         close={this.toggleModal}
                     />
                 }

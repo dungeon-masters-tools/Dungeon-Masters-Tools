@@ -6,7 +6,7 @@
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/go-noobs.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/go-noobs.jpg",
             "description": "League of Legends game-client landing page for new player. Fully animated menus and selection screens to get new players experience with the basics of the game and prime them for online play.",
-            "info": "",
+            "tags": ["HTML", "CSS", "Javascript", "Greensock"],
             "url": ""
         },
         {
@@ -14,16 +14,18 @@
             "subtitle": "Riot Games",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/lol-champ.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/lol-champ.jpg",
-            "description": "Landing pages for new and reworked League of Legends Champions.",
+            "description": "League of Legends microsites feature new Champion reveals and updates. These sites present useful info about the Champions in a stylistic and entertaining way. Usually consisting of abilities video switcher with menu, wallpaper downloads and in-game skin previews.",
+            "tags": ["HTML", "CSS", "Javascript", "Preact"],
             "info": "",
             "url": "https://na.leagueoflegends.com/en/featured/champion-reveal-kaisa"
         },
         {
-            "title": "Worlds",
+            "title": "Worlds 2017",
             "subtitle": "Riot Games",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-worlds.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-worlds.jpg",
-            "description": "World Championship event in the League of Legends game client.",
+            "description": "World Championship event in the League of Legends game client.This event took place globally for League of Legends and consumed localized data from multiple sources.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": ""
         },
@@ -32,7 +34,8 @@
             "subtitle": "Riot Games",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-versus.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/rg-versus.jpg",
-            "description": "Legendary Versus event in the League of Legends game client.",
+            "description": "Legendary Versus event in the League of Legends game-client & microsite. This in-game event revolved around real world gameplay stats and also incorporated an in-browser comic book with time release content.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": ""
         },
@@ -41,7 +44,8 @@
             "subtitle": "Blizzard Entertainnment / TESPA",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/tespa.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/tespa.jpg",
-            "description": "Mobile app for TESPA recruiters to signup new chapter members while at events.",
+            "description": "TESPA mobile app for recruiters to signup new chapter members while at events.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": ""
         },
@@ -51,6 +55,7 @@
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/OWWC.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/OWWC.jpg",
             "description": "Overwatch World Cup esports event hub.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": "https://worldcup.playoverwatch.com/en-us/"
         },
@@ -60,6 +65,7 @@
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/heroes.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/heroes.jpg",
             "description": "Modern redesign and relaunch of the Heroes of the Storm Game Site coinciding with a big in game update.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": "https://heroesofthestorm.com/en-us/"
         },
@@ -68,7 +74,8 @@
             "subtitle": "LiveNation",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-ncw.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-ncw.jpg",
-            "description": "LiveNation's largest promotional event of the year offering $20 concert tickets.",
+            "description": "LiveNation's largest promotional event of the year offering $20 concert tickets. This site pulls in data from a custom built API to tailor information to the users geolocation.",
+            "tags": ["HTML", "CSS", "Javascript", "Preact"],
             "info": "",
             "url": ""
         },
@@ -77,7 +84,8 @@
             "subtitle": "LiveNation",
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-sweeps.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-sweeps.jpg",
-            "description": "LiveNation sweepstakes pages.",
+            "description": "LiveNation sweepstakes and contests. These projects require custom form-validation on the client side as well as server-side. Usually ships with custom built emails.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": ""
         },
@@ -87,6 +95,7 @@
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-tickets.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/ln-tickets.jpg",
             "description": "Promo landing page for special deals on event tickets.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": ""
         },
@@ -96,6 +105,7 @@
             "cardImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/hand.jpg",
             "detailImg": "https://s3-us-west-2.amazonaws.com/swl-portfolio/hand.jpg",
             "description": "Official benefit site for accepting hurricane relief donations.",
+            "tags": ["HTML", "CSS", "Javascript"],
             "info": "",
             "url": "https://handinhand2017.com/"
         }
