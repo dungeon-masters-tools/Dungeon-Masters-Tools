@@ -15,7 +15,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="o-layout">
-                <div className="o-laybout__main">
+                <div className="o-layout__main">
                     <div className="c-intro">
                         <div className="c-logo">
                         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 106.5 169.3'>
@@ -66,7 +66,7 @@ export default class App extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="o-laybout__side">
+                <div className="o-layout__side">
                     <div className="c-menu">
                         {
                             Data.projects.map((project, index) => {
