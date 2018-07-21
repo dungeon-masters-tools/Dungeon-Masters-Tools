@@ -1,30 +1,17 @@
 Arguments: 
-  /Users/slockhorst/.nvm/versions/node/v8.5.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add CopyWebpackPlugin
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js update
 
 PATH: 
-  /Users/slockhorst/.nvm/versions/node/v8.5.0/bin:/Users/slockhorst/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/slockhorst/Library/Python/2.7/bin
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Steve\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Steve\AppData\Roaming\nvm;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Ruby22-x64\bin;C:\Users\Steve\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Steve\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Steve\AppData\Roaming\npm;C:\Users\Steve\AppData\Local\Yarn\bin;C:\Users\Steve\AppData\Local\GitHubDesktop\bin;C:\Users\Steve\AppData\Local\hyper\app-2.0.0\resources\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
 
 Yarn version: 
-  1.7.0
+  1.5.1
 
 Node version: 
-  8.5.0
+  9.8.0
 
 Platform: 
-  darwin x64
-
-Trace: 
-  Error: https://registry.yarnpkg.com/CopyWebpackPlugin: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:65656:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:134675:22)
-      at emitTwo (events.js:125:13)
-      at Request.emit (events.js:213:7)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135658:10)
-      at emitOne (events.js:115:13)
-      at Request.emit (events.js:210:7)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135578:12)
-      at Object.onceWrapper (events.js:314:30)
-      at emitNone (events.js:110:20)
+  win32 x64
 
 npm manifest: 
   {
@@ -51,6 +38,7 @@ npm manifest:
     "dependencies": {
       "@fortawesome/fontawesome": "^1.1.5",
       "@fortawesome/react-fontawesome": "^0.0.18",
+      "copy-webpack-plugin": "^4.5.2",
       "lodash": "^4.17.5",
       "npm": "^5.8.0",
       "react": "^16.3.2",
@@ -2089,6 +2077,19 @@ Lockfile:
     version "0.1.1"
     resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   
+  copy-webpack-plugin@^4.5.2:
+    version "4.5.2"
+    resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-4.5.2.tgz#d53444a8fea2912d806e78937390ddd7e632ee5c"
+    dependencies:
+      cacache "^10.0.4"
+      find-cache-dir "^1.0.0"
+      globby "^7.1.1"
+      is-glob "^4.0.0"
+      loader-utils "^1.1.0"
+      minimatch "^3.0.4"
+      p-limit "^1.0.0"
+      serialize-javascript "^1.4.0"
+  
   core-js@^1.0.0:
     version "1.2.7"
     resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -3437,6 +3438,17 @@ Lockfile:
       object-assign "^4.0.1"
       pify "^2.0.0"
       pinkie-promise "^2.0.0"
+  
+  globby@^7.1.1:
+    version "7.1.1"
+    resolved "https://registry.yarnpkg.com/globby/-/globby-7.1.1.tgz#fb2ccff9401f8600945dfada97440cca972b8680"
+    dependencies:
+      array-union "^1.0.1"
+      dir-glob "^2.0.0"
+      glob "^7.1.2"
+      ignore "^3.3.5"
+      pify "^3.0.0"
+      slash "^1.0.0"
   
   globby@^8.0.0:
     version "8.0.1"
@@ -5861,6 +5873,12 @@ Lockfile:
   p-lazy@^1.0.0:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/p-lazy/-/p-lazy-1.0.0.tgz#ec53c802f2ee3ac28f166cc82d0b2b02de27a835"
+  
+  p-limit@^1.0.0:
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
+    dependencies:
+      p-try "^1.0.0"
   
   p-limit@^1.1.0:
     version "1.2.0"
@@ -8998,3 +9016,16 @@ Lockfile:
       text-table "^0.2.0"
       through2 "^2.0.0"
       yeoman-environment "^2.0.5"
+
+Trace: 
+  Error: Command "update" not found.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:87307:17
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:23451:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:95:12
+      at runCommand (C:\Program Files (x86)\Yarn\lib\cli.js:87312:22)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:87412:14)

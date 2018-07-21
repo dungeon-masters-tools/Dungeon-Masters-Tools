@@ -17,42 +17,9 @@ export default class App extends React.Component {
             <div className="o-layout">
                 <div className="o-layout__main">
                     <div className="c-intro">
-                        <div className="c-logo">
-                        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 106.5 169.3'>
-                            <linearGradient id='a' gradientUnits='userSpaceOnUse' x1='-28' y1='84.628'
-                            x2='78.25' y2='84.628'>
-                                <stop offset='0' stopColor='#73e8ff' />
-                                <stop offset='1' stopColor='#0086c3' />
-                            </linearGradient>
-                            <path fill='url(#a)' d='M0 32.9l106.2 64.9v38.6L.1 71.6z' />
-                            <linearGradient id='b' gradientUnits='userSpaceOnUse' y1='26.053' x2='53.379'
-                            y2='26.053'>
-                                <stop offset='0' stopColor='#73e8ff' />
-                                <stop offset='1' stopColor='#0086c3' />
-                            </linearGradient>
-                            <path fill='url(#b)' d='M53.4 0v38.9L31.5 52.1 0 32.9z' />
-                            <linearGradient id='c' gradientUnits='userSpaceOnUse' x1='53.375' y1='29.649'
-                            x2='106.542' y2='29.649'>
-                                <stop offset='0' stopColor='#73e8ff' />
-                                <stop offset='1' stopColor='#0086c3' />
-                            </linearGradient>
-                            <path fill='url(#c)' d='M106.5 32.6L87.7 59.3 53.4 38.9V0z' />
-                            <linearGradient id='d' gradientUnits='userSpaceOnUse' x1='53.375' y1='143.276'
-                            x2='106.25' y2='143.276'>
-                                <stop offset='0' stopColor='#73e8ff' />
-                                <stop offset='1' stopColor='#0086c3' />
-                            </linearGradient>
-                            <path fill='url(#d)' d='M53.4 130.6v38.7l52.8-32.9L75 117.3z' />
-                            <linearGradient id='e' gradientUnits='userSpaceOnUse' x1='0.25' y1='139.524'
-                            x2='53.375' y2='139.524'>
-                                <stop offset='0' stopColor='#73e8ff' />
-                                <stop offset='1' stopColor='#0086c3' />
-                            </linearGradient>
-                            <path fill='url(#e)' d='M53.4 130.6l-34.1-20.8L.2 136.6l53.2 32.7z' />
-                        </svg>
-                        </div>
+                        
                         <h1 className="c-intro__headline">Steve Lockhorst</h1>
-                        <p className="c-intro__body">Front End Developer who loves good UI and drinks too much La Croix. Currently at a fast paced agency doing work for some of the biggest names in the gaming and entertainment worlds.</p>
+                        <p className="c-intro__body">Front End Developer who loves good UI. Currently at Haven Agency doing work for some of the biggest names in the gaming and entertainment worlds.</p>
                         <div className="c-intro__social">
                             <a href="https://www.linkedin.com/in/steven-lockhorst-6b740a94/">
                                 <svg className="c-icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg>
