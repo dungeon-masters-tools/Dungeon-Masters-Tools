@@ -1,0 +1,10 @@
+{
+    "menu": [
+        {
+            "title": "Menu Item",
+            "description": "Menu Item description",
+            "img": "http://satyr.io/200x300/red",
+            "link": "/path/to/thing"
+        }
+    ]
+}

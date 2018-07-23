@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-v2",
+  "name": "dungeons-masters-tools",
   "version": "1.0.0",
   "description": "Portfolio re-do with all new workflow using `Webpack 4`",
   "private": true,
@@ -11,17 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swlockhorst/portfolio-v2.git"
+    "url": "git+https://github.com/dungeon-masters-tools/Dungeon-Masters-Tools.git"
   },
-  "author": "",
+  "author": "Steven Lockhorst",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swlockhorst/portfolio-v2/issues"
+    "url": "https://github.com/dungeon-masters-tools/dungeon-masters-tools/issues"
   },
-  "homepage": "https://github.com/swlockhorst/portfolio-v2#readme",
+  "homepage": "https://github.com/dungeon-masters-tools/dungeon-masters-tools#readme",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/react-fontawesome": "^0.0.18",
     "copy-webpack-plugin": "^4.5.2",
     "lodash": "^4.17.5",
     "npm": "^5.8.0",
@@ -29,8 +27,6 @@
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free-brands": "^5.0.10",
-    "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "autoprefixer": "^8.3.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
